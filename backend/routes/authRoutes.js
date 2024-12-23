@@ -1,4 +1,4 @@
-// backend/routes/authRoutes.js
+const venom=10;
 
 const express = require('express');
 const router = express.Router();
@@ -11,3 +11,5 @@ router.post('/register', register);
 router.post('/login', login);
 
 module.exports = router;
+  
+
